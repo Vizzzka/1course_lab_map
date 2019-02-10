@@ -14,8 +14,8 @@ Python module
     link /link <br>
   /head <br>
   body <br>
-    div /div> <br>
-    scripts /scripts <br>
+    <div> </div> <br>
+    <scripts> </scripts> <br>
   /body
   
   Notes
