@@ -71,9 +71,9 @@ def draw_map(file_name, year):
     my_map.save('Map.html')
 
     
-def get_coor(lst_films):
+def get_coor(lst_films, file_name):
     coor_lst = list()
-    f = open('text.txt', 'w')
+    f = open(file_name, 'w')
     GOOGLE_MAPS_API_URL = 'https://maps.googleapis.com/maps/api/geocode/json'
     
     for el in lst_films[:500]:
@@ -109,5 +109,5 @@ if __name__ == "__main__":
         year = read_param()
         
     lst_films = find_films(year, 'locations.list')
-    #coor_lst = get_coor(lst_films)
+    coor_lst = get_coor(lst_films, 'coordinates_1960year.txt')
     draw_map('coordinates_1960year.txt', year)
