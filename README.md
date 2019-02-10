@@ -6,7 +6,7 @@ Python module
   and requests library. Mapped films released in user specified year and <br>
   also countries are colored by its population. Used databases: locations.list and world.json<br>
   This module creates html file with a such structure:<br>
-  <head><br>
+  <head>
   <meta> </meta><br>
   ...<br>
   <script> </script><br>
@@ -17,7 +17,7 @@ Python module
     <div> </div><br>
     <scripts> </scripts><br>
   </body><br>
-  Notes
+  Notes<br>
   --------
   File coordinates_1960year.txt includes list of coordinates and title <br>
   of the films which were directed in 1960. That was done to reduce program execution time <br>
