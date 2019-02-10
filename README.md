@@ -6,7 +6,7 @@ Python module
   and requests library. Mapped films released in user specified year and <br>
   also countries are colored by its population. Used databases: locations.list and world.json<br>
   This module creates html file with a such structure:<br>
-  <head>
+  "<head>
   <meta> </meta>
   ...
   <script> </script>
@@ -16,7 +16,8 @@ Python module
   <body>
     <div> </div>
     <scripts> </scripts>
-  </body>
+  </body>"
+  
   Notes
   -----------
   File coordinates_1960year.txt includes list of coordinates and title <br>
