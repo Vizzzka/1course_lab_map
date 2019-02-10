@@ -6,17 +6,17 @@ Python module
   and requests library. Mapped films released in user specified year and <br>
   also countries are colored by its population. Used databases: locations.list and world.json<br>
   This module creates html file with a such structure:<br>
-  "<head>
-  <meta> </meta>
-  ...
-  <script> </script>
-  ...
-  <link> </link>
-  </head>
-  <body>
-    <div> </div>
-    <scripts> </scripts>
-  </body>"
+  head <br>
+    meta /meta <br>
+    ...
+    script /script <br>
+    ...
+    link /link <br>
+  /head <br>
+  body <br>
+    div /div> <br>
+    scripts /scripts <br>
+  /body
   
   Notes
   -----------
