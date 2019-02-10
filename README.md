@@ -8,9 +8,9 @@ Python module
   This module creates html file with a such structure:<br>
   head <br>
     meta /meta <br>
-    ...
+    
     script /script <br>
-    ...
+    
     link /link <br>
   /head <br>
   body <br>
